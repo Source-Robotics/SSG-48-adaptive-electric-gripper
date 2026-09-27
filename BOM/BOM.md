@@ -20,7 +20,7 @@ This BOM lists all components required to build the SSG48 gripper. Quantities ar
 | M4 | 10 mm | 4 |  |  |
 | M3 | 12 mm | 4 |  |  |
 | M3 | 10 mm | 4 |  |  |
-| M2 | 10 mm | 3 |  |  |
+
 
 ---
 
