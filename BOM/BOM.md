@@ -49,8 +49,8 @@ This BOM lists all components required to build the SSG48 gripper. Quantities ar
 | Type | Quantity | Description | Link |
 |------|----------|-------------|------|
 | Shaft coupler | 1 | 8 mm hole shaft, M4 screw holes<br>[Reference image](../Photos/shaft_coupler.png) | [Link](https://www.aliexpress.com/item/4000208248034.html?spm=a2g0o.order_list.order_list_main.521.6af018026rwEsK) |
-| MGN7C slider | 2 | [Reference image](../Photos/MGN7C_slider.png) | [Link](https://s.click.aliexpress.com/e/_oEZfs3x) |
-| Linear guide | 1 | 100 mm<br>[Reference image](../Photos/MGN7C_slider.png) | [Link](https://s.click.aliexpress.com/e/_oBSDfjN) |
+| MGN7C slider | 2 | [Reference image](../Photos/MGN7C_carriage.jpg) | [Link](https://s.click.aliexpress.com/e/_oEZfs3x) |
+| Linear guide | 1 | 100 mm<br>[Reference image](../Photos/MGN7_rail.jpg) | [Link](https://s.click.aliexpress.com/e/_oBSDfjN) |
 | Magnet | 1 | 6 mm diameter, 2.5 mm thickness, diametrically magnetised<br>[Reference image](../Photos/magnet_diametrically.png) | [Link](https://source-robotics.com/products/6x2-5mm-diametrical-neodymium-magnet) |
 
 ---
