@@ -26,10 +26,10 @@ This BOM lists all components required to build the SSG48 gripper. Quantities ar
 
 ## Brass Inserts
 
-| Thread | Length | Outer Diameter | Quantity | Link |
-|--------|--------|----------------|----------|------|
-| M3 | 3 mm | 4.5 mm | 1 | [Link](https://s.click.aliexpress.com/e/_DnCPrW9) |
-| M3 | 5 mm | 4.5 mm | 15 | [Link](https://s.click.aliexpress.com/e/_DnCPrW9) |
+| Thread | Length | Outer Diameter | Quantity | Description | Link |
+|--------|--------|----------------|----------|-------------|------|
+| M3 | 3 mm | 4.5 mm | 1 | [Reference image](../Photos/brass_insert.png) | [Link](https://s.click.aliexpress.com/e/_DnCPrW9) |
+| M3 | 5 mm | 4.5 mm | 15 | [Reference image](../Photos/brass_insert.png) | [Link](https://s.click.aliexpress.com/e/_DnCPrW9) |
 
 ---
 
@@ -40,7 +40,7 @@ This BOM lists all components required to build the SSG48 gripper. Quantities ar
 
 | Type | Quantity | Description | Link |
 |------|----------|-------------|------|
-| GBM5208-75 | 1 |  | [Link](https://s.click.aliexpress.com/e/_DmkWskt) //  [Alibaba link](https://www.alibaba.com/product-detail/Flashhobby-GBM5208-75-0-3KG-5208_1601005642241.html) |
+| GBM5208-75 | 1 | [Reference image](../Photos/GBM5208.jpg) | [Link](https://s.click.aliexpress.com/e/_DmkWskt) //  [Alibaba link](https://www.alibaba.com/product-detail/Flashhobby-GBM5208-75-0-3KG-5208_1601005642241.html) |
 
 ---
 
@@ -48,10 +48,10 @@ This BOM lists all components required to build the SSG48 gripper. Quantities ar
 
 | Type | Quantity | Description | Link |
 |------|----------|-------------|------|
-| Shaft coupler | 1 | 8 mm hole shaft, M4 screw holes | [Link](https://www.aliexpress.com/item/4000208248034.html?spm=a2g0o.order_list.order_list_main.521.6af018026rwEsK) |
+| Shaft coupler | 1 | 8 mm hole shaft, M4 screw holes<br>[Reference image](../Photos/shaft_coupler.png) | [Link](https://www.aliexpress.com/item/4000208248034.html?spm=a2g0o.order_list.order_list_main.521.6af018026rwEsK) |
 | MGN7C slider | 2 |  | [Link](https://s.click.aliexpress.com/e/_oEZfs3x) |
 | Linear guide | 1 | 100 mm | [Link](https://s.click.aliexpress.com/e/_oBSDfjN) |
-| Magnet | 1 | 6 mm diameter, 2.5 mm thickness |  |
+| Magnet | 1 | 6 mm diameter, 2.5 mm thickness, diametrically magnetised<br>[Reference image](../Photos/Magnet.png) | [Link](https://source-robotics.com/products/6x2-5mm-diametrical-neodymium-magnet) |
 
 ---
 
@@ -59,9 +59,9 @@ This BOM lists all components required to build the SSG48 gripper. Quantities ar
 
 | Type | Quantity | Description | Link |
 |------|----------|-------------|------|
-| Spectral micro BLDC driver | 1 | [source-robotics.com](http://source-robotics.com/) | [Link](https://source-robotics.com/products/spectral-micro-bldc-controller) |
-| XH 2.54 mm, 300 mm, 2P, double-ended | 1 | Cable for 24 V | [Link](https://s.click.aliexpress.com/e/_c4XKzTj9) |
-| ZH 1.5 mm, 300 mm, 2P, double-ended | 1 | Cable for CAN bus | [Link](https://s.click.aliexpress.com/e/_c4XKzTj9) |
+| Spectral micro BLDC driver | 1 | [source-robotics.com](http://source-robotics.com/)<br>[Reference image](../Photos/Spectral_micro.png) | [Link](https://source-robotics.com/products/spectral-micro-bldc-controller) |
+| XH 2.54 mm, 300 mm, 2P, double-ended | 1 | Cable for 24 V<br>[Reference image](../Photos/XH_cable.jpg) | [Link](https://s.click.aliexpress.com/e/_c4XKzTj9) |
+| ZH 1.5 mm, 300 mm, 2P, double-ended | 1 | Cable for CAN bus<br>[Reference image](../Photos/ZH_cable.jpg) | [Link](https://s.click.aliexpress.com/e/_c4XKzTj9) |
 | Male 4-pin connector | 1 | [Reference image](../Photos/M8connectormale4pin.png) | [Link](https://s.click.aliexpress.com/e/_DCG5Rff) |
 
 ---
@@ -72,7 +72,7 @@ Parts for the DIY cable version below:
 
 | Type | Length / Spec | Quantity | Description | Link |
 |------|---------------|----------|-------------|------|
-| 26 AWG cable | 0.15 mm², 4-wire twisted pair | 0.4 m | Usually 35 cm cable is enough | [Link](https://s.click.aliexpress.com/e/_DeGUD4Z) |
+| 26 AWG cable | 0.15 mm², 4-wire twisted pair | 0.4 m | Usually 35 cm cable is enough<br>[Reference image](../Photos/Twisted_pair_cable.png) | [Link](https://s.click.aliexpress.com/e/_DeGUD4Z) |
 | M8 4-pin male wire connector | — | 1 | [See reference image](../Photos/M8_male.png) | [Link](https://s.click.aliexpress.com/e/_DCG5Rff) |
 | M8 4-pin female wire connector | — | 1 | [See reference image](../Photos/M8_female.png) | [Link](https://s.click.aliexpress.com/e/_DCG5Rff) |
 
