@@ -1,3 +1,9 @@
+> **Legacy standalone exports.** For the current jaw options, colors,
+> measured masses and collision updates, start with the [SSG48 model guide](https://github.com/Source-Robotics/robot_descriptions/blob/cc8168520e0c57328b9a9a8e39462b1162b96984/guides/ssg48.md)
+> and the `models/descriptions` submodule. The current shared release provides
+> arm-mounted models and MuJoCo grasp fixtures. These older standalone files
+> are retained for compatibility and have not received those updates.
+
 
 # Source Robotics SSG48 gripper Description (MJCF)
 
