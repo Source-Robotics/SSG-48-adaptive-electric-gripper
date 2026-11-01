@@ -11,14 +11,15 @@
 
 ## URDF and MuJoCo models
 
-**[Open the SSG48 model guide and downloads](description/)**
+**[Open the SSG48 model guide and downloads](ssg48_description/)**
 
-The `description/` folder opens instructions specifically for SSG48:
-standalone gripper downloads, both jaw options, mounting and open/close controls.
-The maintained source is nested at `description/source/`, pinned to **v2.13.0**.
-For an existing clone, run `git submodule sync --recursive` followed by
-`git submodule update --init --recursive`; for a new clone use
-`git clone --recurse-submodules`. Model ZIP downloads work without Git.
+The `ssg48_description/` folder contains the product README, preview images and
+download links for the standalone gripper and both jaw options.
+All maintained model files live in [robot_descriptions](https://github.com/Source-Robotics/robot_descriptions).
+Download the model ZIP for your product and simulator from the guide, then
+extract it into your working directory. This hardware repository needs no
+model submodule or recursive clone.
+
 
 
 
@@ -47,7 +48,7 @@ If you want to Source all the parts yourself and build your own follow these ste
 - [DOCS](https://source-robotics.github.io/SSG48-gripper-docs/page1_about_the_gripper/)
 - [Python API](https://github.com/PCrnjak/Spectral-BLDC-Python/tree/main)
 - [ROS2 package for SSG48 gripper](https://github.com/Lass6230/ssg48_adaptive_electric_gripper_ros2) /// [ROS2 package for MSG gripper](https://github.com/BiomechatronicsLab/source_robotics_msg_gripper_ros2)
-- [Current URDF & MuJoCo models](description/)
+- [Current URDF & MuJoCo models](ssg48_description/)
 
 
 ## 💻Quick start code example

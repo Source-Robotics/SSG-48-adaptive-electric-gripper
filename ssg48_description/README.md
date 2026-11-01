@@ -1,6 +1,6 @@
 # SSG48 gripper: getting started
 
-[All models](https://github.com/Source-Robotics/robot_descriptions/blob/ff6c2ec64626c988abc030f56885e8a9babcf4ef/README.md) | [PAR6](https://github.com/Source-Robotics/robot_descriptions/blob/ff6c2ec64626c988abc030f56885e8a9babcf4ef/guides/par6.md) | [PAROL6](https://github.com/Source-Robotics/robot_descriptions/blob/ff6c2ec64626c988abc030f56885e8a9babcf4ef/guides/parol6.md)
+[All models](https://github.com/Source-Robotics/robot_descriptions/blob/2f0629208057d258a47dd58354750c614e42c7be/README.md) | [PAR6](https://github.com/Source-Robotics/robot_descriptions/blob/2f0629208057d258a47dd58354750c614e42c7be/guides/par6.md) | [PAROL6](https://github.com/Source-Robotics/robot_descriptions/blob/2f0629208057d258a47dd58354750c614e42c7be/guides/parol6.md)
 
 **Working with the gripper alone? Download a standalone package below.**
 Both formats include **Solid jaws** (default) and **Fin-ray jaws**, with all meshes,
@@ -8,7 +8,7 @@ materials, finger joints, collision shapes and mass properties.
 
 | Solid jaws (default) | Fin-ray jaws |
 | --- | --- |
-| ![SSG48 with Solid jaws](https://raw.githubusercontent.com/Source-Robotics/robot_descriptions/ff6c2ec64626c988abc030f56885e8a9babcf4ef/source/grippers/previews/ssg48_solid.png) | ![SSG48 with Fin-ray jaws](https://raw.githubusercontent.com/Source-Robotics/robot_descriptions/ff6c2ec64626c988abc030f56885e8a9babcf4ef/source/grippers/previews/ssg48_fin_ray.png) |
+| ![SSG48 with Solid jaws](previews/ssg48_solid.png) | ![SSG48 with Fin-ray jaws](previews/ssg48_fin_ray.png) |
 
 ## 1. Download the gripper-only package
 
@@ -25,8 +25,8 @@ folder together so the model can find its meshes.
 
 | Jaws | MuJoCo viewer scene | URDF entry file |
 | --- | --- | --- |
-| Solid jaws (default) | [`scene_solid.xml`](https://github.com/Source-Robotics/robot_descriptions/blob/ff6c2ec64626c988abc030f56885e8a9babcf4ef/mujoco/ssg48/scene_solid.xml) | [`ssg48_solid.urdf`](https://github.com/Source-Robotics/robot_descriptions/blob/ff6c2ec64626c988abc030f56885e8a9babcf4ef/urdf/ssg48_description/ssg48_solid.urdf) |
-| Fin-ray jaws | [`scene_fin_ray.xml`](https://github.com/Source-Robotics/robot_descriptions/blob/ff6c2ec64626c988abc030f56885e8a9babcf4ef/mujoco/ssg48/scene_fin_ray.xml) | [`ssg48_fin_ray.urdf`](https://github.com/Source-Robotics/robot_descriptions/blob/ff6c2ec64626c988abc030f56885e8a9babcf4ef/urdf/ssg48_description/ssg48_fin_ray.urdf) |
+| Solid jaws (default) | [`scene_solid.xml`](https://github.com/Source-Robotics/robot_descriptions/blob/2f0629208057d258a47dd58354750c614e42c7be/mujoco/ssg48/scene_solid.xml) | [`ssg48_solid.urdf`](https://github.com/Source-Robotics/robot_descriptions/blob/2f0629208057d258a47dd58354750c614e42c7be/urdf/ssg48_description/ssg48_solid.urdf) |
+| Fin-ray jaws | [`scene_fin_ray.xml`](https://github.com/Source-Robotics/robot_descriptions/blob/2f0629208057d258a47dd58354750c614e42c7be/mujoco/ssg48/scene_fin_ray.xml) | [`ssg48_fin_ray.urdf`](https://github.com/Source-Robotics/robot_descriptions/blob/2f0629208057d258a47dd58354750c614e42c7be/urdf/ssg48_description/ssg48_fin_ray.urdf) |
 
 **MuJoCo:** from the directory where you extracted the download, run:
 
@@ -62,7 +62,7 @@ In native MuJoCo, `gripper_actuator` accepts meters: **0 opens** and
 **-0.0235 closes**. Each finger has 23.5 mm of commanded travel,
 with the retained joint equality coupling. The URDF uses the same named finger
 joints and its retained mimic relation; the consumer must implement mimic and
-adjacent-body collision filtering. See the [package README](https://github.com/Source-Robotics/robot_descriptions/blob/ff6c2ec64626c988abc030f56885e8a9babcf4ef/mujoco/ssg48/README.md)
+adjacent-body collision filtering. See the [package README](https://github.com/Source-Robotics/robot_descriptions/blob/2f0629208057d258a47dd58354750c614e42c7be/mujoco/ssg48/README.md)
 for endpoint and contact details.
 
 The complete modeled mass is **440 g**, including two **39.3 g** moving
@@ -73,7 +73,7 @@ than a newly measured jaw-specific grasp center.
 
 ## Use SSG48 already mounted on PAR6 or PAROL6
 
-Download the **robot** package using the [PAR6](https://github.com/Source-Robotics/robot_descriptions/blob/ff6c2ec64626c988abc030f56885e8a9babcf4ef/guides/par6.md) or [PAROL6](https://github.com/Source-Robotics/robot_descriptions/blob/ff6c2ec64626c988abc030f56885e8a9babcf4ef/guides/parol6.md)
+Download the **robot** package using the [PAR6](https://github.com/Source-Robotics/robot_descriptions/blob/2f0629208057d258a47dd58354750c614e42c7be/guides/par6.md) or [PAROL6](https://github.com/Source-Robotics/robot_descriptions/blob/2f0629208057d258a47dd58354750c614e42c7be/guides/parol6.md)
 guide, then choose the corresponding mounted entry:
 
 | Jaws | Robot MuJoCo scene | Robot URDF file |
@@ -83,26 +83,27 @@ guide, then choose the corresponding mounted entry:
 
 ## Source checkout and validation
 
-In the SSG48 hardware repository, **`description/`** opens this product's
-instructions. Its shared source is at `description/source/`. Standalone models
-are under `description/source/mujoco/ssg48` and
-`description/source/urdf/ssg48_description`.
+In the SSG48 hardware repository, **`ssg48_description/`** contains this
+product's guide and local previews. Download and extract the model ZIP into a
+separate working directory or ROS workspace. The hardware guide folder is
+documentation; the extracted URDF folder is the actual ROS/model package.
 
-[Standalone validation](https://github.com/Source-Robotics/robot_descriptions/blob/ff6c2ec64626c988abc030f56885e8a9babcf4ef/reports/standalone_grippers_validation.json) compares
+All maintained models live in the central `robot_descriptions` repository,
+under `mujoco/ssg48` and `urdf/ssg48_description`. A software project
+can load those paths from a pinned checkout if it needs local model sources.
+
+[Standalone validation](https://github.com/Source-Robotics/robot_descriptions/blob/2f0629208057d258a47dd58354750c614e42c7be/reports/standalone_grippers_validation.json) compares
 tool-relative FK, local inertia, masses and controls with the mounted models,
 then checks physical close/open behavior and relocated package assets.
-[Migration instructions](https://github.com/Source-Robotics/robot_descriptions/blob/ff6c2ec64626c988abc030f56885e8a9babcf4ef/guides/legacy-models.md) cover the older standalone exports.
+[Migration instructions](https://github.com/Source-Robotics/robot_descriptions/blob/2f0629208057d258a47dd58354750c614e42c7be/guides/legacy-models.md) cover the older standalone exports.
 
-## Shared source
+## Maintained model source
 
-These instructions use model version **2.13.0**. The [`source` submodule](https://github.com/Source-Robotics/robot_descriptions/tree/ff6c2ec64626c988abc030f56885e8a9babcf4ef)
-pins that exact release. To initialize it in an existing checkout:
+This folder contains the product guide and preview images. Download the runtime
+model packages using the links above and extract them into your working directory.
+All model files are maintained in [robot_descriptions](https://github.com/Source-Robotics/robot_descriptions);
+this hardware repository has no model submodule to initialize.
 
-```bash
-git submodule sync --recursive
-git submodule update --init --recursive
-```
-
-GitHub's repository ZIP excludes submodules. Use the model ZIP downloads above
-for a ready-to-use package, or clone this hardware repository with
-`git clone --recurse-submodules`.
+Current tested model release: **[v2.13.0](https://github.com/Source-Robotics/robot_descriptions/releases/tag/v2.13.0)**.
+See the [shared product guide](https://github.com/Source-Robotics/robot_descriptions/blob/2f0629208057d258a47dd58354750c614e42c7be/guides/ssg48.md)
+for the corresponding central documentation.
