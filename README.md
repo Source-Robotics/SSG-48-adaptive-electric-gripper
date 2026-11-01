@@ -9,6 +9,19 @@
 
 </div>
 
+## URDF and MuJoCo models
+
+**[Open the SSG48 model guide and downloads](description/)**
+
+The `description/` folder opens instructions specifically for SSG48:
+standalone gripper downloads, both jaw options, mounting and open/close controls.
+The maintained source is nested at `description/source/`, pinned to **v2.13.0**.
+For an existing clone, run `git submodule sync --recursive` followed by
+`git submodule update --init --recursive`; for a new clone use
+`git clone --recurse-submodules`. Model ZIP downloads work without Git.
+
+
+
 ## 📖 Project Overview
 
 **SSG-48 adaptive electric gripper** is a gripper based on [Spectral micro BLDC drivers](https://source-robotics.com/products/spectral-micro-bldc-controller). It is a gripper capable of controlling its gripping force, making it perfect for assembly tasks and human-robot collaboration. Force can be adjusted from 5 N to 80 N allowing you to grasp a wide range of items; from delicate and soft to rigid and sturdy.
@@ -34,7 +47,7 @@ If you want to Source all the parts yourself and build your own follow these ste
 - [DOCS](https://source-robotics.github.io/SSG48-gripper-docs/page1_about_the_gripper/)
 - [Python API](https://github.com/PCrnjak/Spectral-BLDC-Python/tree/main)
 - [ROS2 package for SSG48 gripper](https://github.com/Lass6230/ssg48_adaptive_electric_gripper_ros2) /// [ROS2 package for MSG gripper](https://github.com/BiomechatronicsLab/source_robotics_msg_gripper_ros2)
-- [Current URDF & MuJoCo models](https://github.com/Source-Robotics/robot_descriptions/blob/cc8168520e0c57328b9a9a8e39462b1162b96984/guides/ssg48.md)
+- [Current URDF & MuJoCo models](description/)
 
 
 ## 💻Quick start code example
@@ -84,42 +97,6 @@ while True:
 
 
 
-## Simulation models (URDF and MuJoCo)
-
-**[Start with the SSG48 model guide](https://github.com/Source-Robotics/robot_descriptions/blob/cc8168520e0c57328b9a9a8e39462b1162b96984/guides/ssg48.md)** for downloads, jaw/end-effector
-selection and instructions for opening the models.
-
-The maintained models are included through the **[`models/descriptions`](https://github.com/Source-Robotics/robot_descriptions/tree/cc8168520e0c57328b9a9a8e39462b1162b96984)**
-Git submodule. It pins model version **2.12.1** together with its guided
-documentation. Clicking the submodule opens the shared descriptions landing
-page; select SSG48 there.
-
-The shared models include **Solid jaws** (default) and **Fin-ray jaws** on
-PAR6 and PAROL6. The current shared release contains full robot assemblies and
-isolated MuJoCo grasp fixtures. The [older standalone gripper exports](SSG48_gripper_description/)
-remain available for existing integrations; they predate the shared jaw, mass,
-appearance and contact updates.
-
-Clone this repository with its models:
-
-```bash
-git clone --recurse-submodules https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper.git
-```
-
-For an existing checkout:
-
-```bash
-git submodule update --init --recursive
-```
-
-Choose your robot in the guide; packages are under `mujoco/par6`,
-`mujoco/parol6`, `urdf/par6_description` and `urdf/parol6_description` inside
-the submodule.
-
-GitHub's **Download ZIP** does not include submodule contents. For model files
-without Git, use the [ready-to-use model ZIPs](https://github.com/Source-Robotics/robot_descriptions/releases/latest)
-linked in the guide. Model changes are maintained in `robot_descriptions`; this
-repository records an exact version rather than automatically following updates.
 
 ## ⚠️ Safety, Liability & Disclaimer
 This project includes experimental software, hardware designs, and assembly documentation that are still under development and may contain bugs, errors, or incomplete features. By using, building, or modifying this project, you acknowledge that:
