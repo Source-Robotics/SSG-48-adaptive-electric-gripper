@@ -1,13 +1,13 @@
 # SSG48 gripper: getting started
 
-[All models](https://github.com/Source-Robotics/robot_descriptions/blob/e5b482dc05068fa2d3faa64fa1a028c7edec3686/README.md) | [PAR6](https://github.com/Source-Robotics/robot_descriptions/blob/e5b482dc05068fa2d3faa64fa1a028c7edec3686/guides/par6.md) | [PAROL6](https://github.com/Source-Robotics/robot_descriptions/blob/e5b482dc05068fa2d3faa64fa1a028c7edec3686/guides/parol6.md) | [Change colors](https://github.com/Source-Robotics/robot_descriptions/blob/e5b482dc05068fa2d3faa64fa1a028c7edec3686/docs/COLORS.md) | [License and attribution](https://github.com/Source-Robotics/robot_descriptions/blob/e5b482dc05068fa2d3faa64fa1a028c7edec3686/ATTRIBUTION.md)
+[All models](https://github.com/Source-Robotics/robot_descriptions/blob/65907223b3aa5cb4680471d3c3639cba88ea6dc9/README.md) | [PAR6](https://github.com/Source-Robotics/robot_descriptions/blob/65907223b3aa5cb4680471d3c3639cba88ea6dc9/guides/par6.md) | [PAROL6](https://github.com/Source-Robotics/robot_descriptions/blob/65907223b3aa5cb4680471d3c3639cba88ea6dc9/guides/parol6.md) | [Change colors](https://github.com/Source-Robotics/robot_descriptions/blob/65907223b3aa5cb4680471d3c3639cba88ea6dc9/docs/COLORS.md) | [License and attribution](https://github.com/Source-Robotics/robot_descriptions/blob/65907223b3aa5cb4680471d3c3639cba88ea6dc9/ATTRIBUTION.md)
 
 **Working with the gripper alone? Download a standalone package below.**
 Both formats include **Solid jaws** (default) and **Fin-ray jaws**, with all meshes,
 materials, finger joints, collision shapes and mass properties.
 
-To customize appearance, edit the [shared color file](https://github.com/Source-Robotics/robot_descriptions/blob/e5b482dc05068fa2d3faa64fa1a028c7edec3686/source/appearance/colors.json)
-and follow the [illustrated color guide](https://github.com/Source-Robotics/robot_descriptions/blob/e5b482dc05068fa2d3faa64fa1a028c7edec3686/docs/COLORS.md). Colors match standalone and arm-mounted versions.
+To customize appearance, edit the [shared color file](https://github.com/Source-Robotics/robot_descriptions/blob/65907223b3aa5cb4680471d3c3639cba88ea6dc9/source/appearance/colors.json)
+and follow the [illustrated color guide](https://github.com/Source-Robotics/robot_descriptions/blob/65907223b3aa5cb4680471d3c3639cba88ea6dc9/docs/COLORS.md). Colors match standalone and arm-mounted versions.
 
 | Solid jaws (default) | Fin-ray jaws |
 | --- | --- |
@@ -28,8 +28,8 @@ folder together so the model can find its meshes.
 
 | Jaws | MuJoCo viewer scene | URDF entry file |
 | --- | --- | --- |
-| Solid jaws (default) | [`scene_solid.xml`](https://github.com/Source-Robotics/robot_descriptions/blob/e5b482dc05068fa2d3faa64fa1a028c7edec3686/mujoco/ssg48/scene_solid.xml) | [`ssg48_solid.urdf`](https://github.com/Source-Robotics/robot_descriptions/blob/e5b482dc05068fa2d3faa64fa1a028c7edec3686/urdf/ssg48_description/ssg48_solid.urdf) |
-| Fin-ray jaws | [`scene_fin_ray.xml`](https://github.com/Source-Robotics/robot_descriptions/blob/e5b482dc05068fa2d3faa64fa1a028c7edec3686/mujoco/ssg48/scene_fin_ray.xml) | [`ssg48_fin_ray.urdf`](https://github.com/Source-Robotics/robot_descriptions/blob/e5b482dc05068fa2d3faa64fa1a028c7edec3686/urdf/ssg48_description/ssg48_fin_ray.urdf) |
+| Solid jaws (default) | [`scene_solid.xml`](https://github.com/Source-Robotics/robot_descriptions/blob/65907223b3aa5cb4680471d3c3639cba88ea6dc9/mujoco/ssg48/scene_solid.xml) | [`ssg48_solid.urdf`](https://github.com/Source-Robotics/robot_descriptions/blob/65907223b3aa5cb4680471d3c3639cba88ea6dc9/urdf/ssg48_description/ssg48_solid.urdf) |
+| Fin-ray jaws | [`scene_fin_ray.xml`](https://github.com/Source-Robotics/robot_descriptions/blob/65907223b3aa5cb4680471d3c3639cba88ea6dc9/mujoco/ssg48/scene_fin_ray.xml) | [`ssg48_fin_ray.urdf`](https://github.com/Source-Robotics/robot_descriptions/blob/65907223b3aa5cb4680471d3c3639cba88ea6dc9/urdf/ssg48_description/ssg48_fin_ray.urdf) |
 
 **MuJoCo:** from the directory where you extracted the download, run:
 
@@ -46,7 +46,7 @@ its `meshes/` folder alongside it. Upload the whole extracted package if a web
 viewer requests a folder or ZIP.
 
 **ROS 2 / RViz:** install `ssg48_description` with colcon using
-[the ROS 2 guide](https://github.com/Source-Robotics/robot_descriptions/blob/e5b482dc05068fa2d3faa64fa1a028c7edec3686/docs/ROS2.md), source your workspace, then run:
+[the ROS 2 guide](https://github.com/Source-Robotics/robot_descriptions/blob/65907223b3aa5cb4680471d3c3639cba88ea6dc9/docs/ROS2.md), source your workspace, then run:
 
 ```bash
 ros2 launch ssg48_description display.launch.py jaws:=solid
@@ -66,7 +66,7 @@ In native MuJoCo, `gripper_actuator` accepts meters: **0 opens** and
 **-0.0235 closes**. Each finger has 23.5 mm of commanded travel,
 with the retained joint equality coupling. The URDF uses the same named finger
 joints and its retained mimic relation; the consumer must implement mimic and
-adjacent-body collision filtering. See the [package README](https://github.com/Source-Robotics/robot_descriptions/blob/e5b482dc05068fa2d3faa64fa1a028c7edec3686/mujoco/ssg48/README.md)
+adjacent-body collision filtering. See the [package README](https://github.com/Source-Robotics/robot_descriptions/blob/65907223b3aa5cb4680471d3c3639cba88ea6dc9/mujoco/ssg48/README.md)
 for endpoint and contact details.
 
 The complete modeled mass is **440 g**, including two **39.3 g** moving
@@ -77,7 +77,7 @@ than a newly measured jaw-specific grasp center.
 
 ## Use SSG48 already mounted on PAR6 or PAROL6
 
-Download the **robot** package using the [PAR6](https://github.com/Source-Robotics/robot_descriptions/blob/e5b482dc05068fa2d3faa64fa1a028c7edec3686/guides/par6.md) or [PAROL6](https://github.com/Source-Robotics/robot_descriptions/blob/e5b482dc05068fa2d3faa64fa1a028c7edec3686/guides/parol6.md)
+Download the **robot** package using the [PAR6](https://github.com/Source-Robotics/robot_descriptions/blob/65907223b3aa5cb4680471d3c3639cba88ea6dc9/guides/par6.md) or [PAROL6](https://github.com/Source-Robotics/robot_descriptions/blob/65907223b3aa5cb4680471d3c3639cba88ea6dc9/guides/parol6.md)
 guide, then choose the corresponding mounted entry:
 
 | Jaws | Robot MuJoCo scene | Robot URDF file |
@@ -85,7 +85,7 @@ guide, then choose the corresponding mounted entry:
 | Solid jaws | `scene_ssg48.xml` | `par6_ssg48.urdf` / `parol6_ssg48.urdf` |
 | Fin-ray jaws | `scene_ssg48_stock.xml` | `par6_ssg48_stock.urdf` / `parol6_ssg48_stock.urdf` |
 
-The [MoveIt 2 demos](https://github.com/Source-Robotics/robot_descriptions/blob/e5b482dc05068fa2d3faa64fa1a028c7edec3686/docs/MOVEIT2.md) support both SSG48 jaw options on either
+The [MoveIt 2 demos](https://github.com/Source-Robotics/robot_descriptions/blob/65907223b3aa5cb4680471d3c3639cba88ea6dc9/docs/MOVEIT2.md) support both SSG48 jaw options on either
 arm, including TCP planning and coupled `open`/`closed` presets. Install the
 arm's matching URDF and MoveIt packages for that workflow.
 
@@ -100,10 +100,10 @@ All maintained models live in the central `robot_descriptions` repository,
 under `mujoco/ssg48` and `urdf/ssg48_description`. A software project
 can load those paths from a pinned checkout if it needs local model sources.
 
-[Standalone validation](https://github.com/Source-Robotics/robot_descriptions/blob/e5b482dc05068fa2d3faa64fa1a028c7edec3686/reports/standalone_grippers_validation.json) compares
+[Standalone validation](https://github.com/Source-Robotics/robot_descriptions/blob/65907223b3aa5cb4680471d3c3639cba88ea6dc9/reports/standalone_grippers_validation.json) compares
 tool-relative FK, local inertia, masses and controls with the mounted models,
 then checks physical close/open behavior and relocated package assets.
-[Migration instructions](https://github.com/Source-Robotics/robot_descriptions/blob/e5b482dc05068fa2d3faa64fa1a028c7edec3686/guides/legacy-models.md) cover the older standalone exports.
+[Migration instructions](https://github.com/Source-Robotics/robot_descriptions/blob/65907223b3aa5cb4680471d3c3639cba88ea6dc9/guides/legacy-models.md) cover the older standalone exports.
 
 ## Maintained model source
 
@@ -113,5 +113,5 @@ All model files are maintained in [robot_descriptions](https://github.com/Source
 this hardware repository has no model submodule to initialize.
 
 Current tested model release: **[v2.18.0](https://github.com/Source-Robotics/robot_descriptions/releases/tag/v2.18.0)**.
-See the [shared product guide](https://github.com/Source-Robotics/robot_descriptions/blob/e5b482dc05068fa2d3faa64fa1a028c7edec3686/guides/ssg48.md)
+See the [shared product guide](https://github.com/Source-Robotics/robot_descriptions/blob/65907223b3aa5cb4680471d3c3639cba88ea6dc9/guides/ssg48.md)
 for the corresponding central documentation.
