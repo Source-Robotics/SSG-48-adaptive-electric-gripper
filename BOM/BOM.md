@@ -63,6 +63,8 @@ This BOM lists all components required to build the SSG48 gripper. Quantities ar
 | XH 2.54 mm, 300 mm, 2P, double-ended | 1 | Cable for 24 V<br>[Reference image](../Photos/XH_cable.jpg) | [Link](https://s.click.aliexpress.com/e/_c4XKzTj9) |
 | ZH 1.5 mm, 300 mm, 2P, double-ended | 1 | Cable for CAN bus<br>[Reference image](../Photos/ZH_cable.jpg) | [Link](https://s.click.aliexpress.com/e/_c4XKzTj9) |
 | Male 4-pin connector | 1 | [Reference image](../Photos/M8connectormale4pin.png) | [Link](https://s.click.aliexpress.com/e/_DCG5Rff) |
+| 100K NTC thermistor | 1 | NTC 100K 3950, glued into the motor windings: the driver stops the gripper at 75 °C<br>[Reference image](../Photos/Thermistor.png) | [Link](https://source-robotics.com/products/100k-ntc-thermistor) |
+| Thermal cement | 1 | Holds the thermistor in the windings and conducts the heat to it<br>[Reference image](../Photos/Thermal_cement.jpg) | [Link](https://s.click.aliexpress.com/e/_c3dBOwTD) |
 
 ---
 
