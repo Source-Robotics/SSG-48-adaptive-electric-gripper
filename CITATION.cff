@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use SSG-48 in your work, please cite it as below."
+title: "SSG-48: open-source adaptive electric gripper"
+type: software
+authors:
+  - name: Source Robotics
+    website: https://source-robotics.com
+  - given-names: Petar
+    family-names: Crnjak
+abstract: "An adaptive electric gripper with force control and force feedback, driven by the Spectral Micro BLDC controller: STL and STEP files, BOM, assembly manual and robot models."
+version: V2
+date-released: 2026-11-04
+repository-code: https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper
+url: https://docs.source-robotics.com/SSG48-gripper-docs/
+license: CERN-OHL-S-2.0
+keywords:
+  - robot gripper
+  - electric gripper
+  - adaptive gripper
+  - force feedback
+  - BLDC
+  - open-source hardware
+  - robotics
