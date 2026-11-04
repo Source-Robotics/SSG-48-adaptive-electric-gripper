@@ -3,7 +3,7 @@
 <div align="center">
 
 # SSG48 adaptive electric gripper
-[![License: apache](https://img.shields.io/badge/Licsence-apache-yellow.svg)](https://opensource.org/license/apache-1-1/)  ![Issues](https://img.shields.io/github/issues/PCrnjak/SSG-48-adaptive-electric-gripper) ![release](https://img.shields.io/github/v/release/PCrnjak/SSG-48-adaptive-electric-gripper) [![ROS2](https://img.shields.io/badge/ROS-2-blueviolet?logo=ros)](https://github.com/Lass6230/ssg48_adaptive_electric_gripper_ros2)  [![Python](https://img.shields.io/badge/Python-API-yellow?logo=python&logoColor=black)](https://github.com/PCrnjak/Spectral-BLDC-Python/tree/main)  [![Docs](https://img.shields.io/badge/DOCS-GitHub%20Pages-brightgreen)](https://source-robotics.github.io/SSG48-gripper-docs/page1_about_the_gripper/)
+[![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-yellow.svg)](LICENSE)  ![Issues](https://img.shields.io/github/issues/Source-Robotics/SSG-48-adaptive-electric-gripper) ![release](https://img.shields.io/github/v/release/Source-Robotics/SSG-48-adaptive-electric-gripper) [![ROS2](https://img.shields.io/badge/ROS-2-blueviolet?logo=ros)](https://github.com/Lass6230/ssg48_adaptive_electric_gripper_ros2)  [![Python](https://img.shields.io/badge/Python-API-yellow?logo=python&logoColor=black)](https://github.com/Source-Robotics/Spectral-BLDC-Python/tree/main)  [![Docs](https://img.shields.io/badge/DOCS-GitHub%20Pages-brightgreen)](https://docs.source-robotics.com/SSG48-gripper-docs/latest/01-overview/)
 
 ## [▶️YouTube🔴 Video of Gripper in Action!](https://www.youtube.com/shorts/DQgi8Ua-VAU)
 
@@ -35,18 +35,18 @@ You can buy SSG48 adaptive electric gripper on our website: https://source-robot
 
 If you want to Source all the parts yourself and build your own follow these steps:
 
-* Source all the parts from the [BOM](https://github.com/PCrnjak/SSG-48-adaptive-electric-gripper/tree/main/BOM)
-* Follow [Assembly instructions](https://github.com/PCrnjak/SSG-48-adaptive-electric-gripper/tree/main/Assembly%20manual) or [Video instructions](https://www.youtube.com/watch?v=127zXHKuqIg) to assemble your gripper
-* Follow [DOCS](https://source-robotics.github.io/SSG48-gripper-docs/page1_about_the_gripper/) to get your gripper up and running.
+* Source all the parts from the [BOM](https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/tree/main/BOM)
+* Follow [Assembly instructions](https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/tree/main/Assembly%20manual) or [Video instructions](https://www.youtube.com/watch?v=127zXHKuqIg) to assemble your gripper
+* Follow [DOCS](https://docs.source-robotics.com/SSG48-gripper-docs/latest/01-overview/) to get your gripper up and running.
 
 ## 📚Documentation:
 
 - [Product website](https://source-robotics.com/products/compliant-gripper)
-- [GUI software](https://github.com/PCrnjak/SSG-gripper-GUI) 
-- [Building instructions](https://github.com/PCrnjak/SSG-48-adaptive-electric-gripper/tree/main/Assembly%20manual)
-- [BOM](https://github.com/PCrnjak/SSG-48-adaptive-electric-gripper/tree/main/BOM)
-- [DOCS](https://source-robotics.github.io/SSG48-gripper-docs/page1_about_the_gripper/)
-- [Python API](https://github.com/PCrnjak/Spectral-BLDC-Python/tree/main)
+- [GUI software](https://github.com/Source-Robotics/SSG-gripper-GUI) 
+- [Building instructions](https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/tree/main/Assembly%20manual)
+- [BOM](https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/tree/main/BOM)
+- [DOCS](https://docs.source-robotics.com/SSG48-gripper-docs/latest/01-overview/)
+- [Python API](https://github.com/Source-Robotics/Spectral-BLDC-Python/tree/main)
 - [ROS2 package for SSG48 gripper](https://github.com/Lass6230/ssg48_adaptive_electric_gripper_ros2) /// [ROS2 package for MSG gripper](https://github.com/BiomechatronicsLab/source_robotics_msg_gripper_ros2)
 - [Current URDF & MuJoCo models](ssg48_description/)
 
@@ -94,7 +94,7 @@ while True:
 
 | Discord | Forum | Blog |
 |--------|-------|------|
-| [![Discord](https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white)](https://discord.com/invite/prjUvjmGpZ) | [![Forum](https://img.shields.io/badge/Forum-0A0A0A)](https://discourse.source-robotics.com/) | [![Blog](https://img.shields.io/badge/Blog-Source%20Robotics-blue)](https://source-robotics.com/blogs/blog) |
+| [![Discord](https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white)](https://discord.com/invite/prjUvjmGpZ) | [![Discussions](https://img.shields.io/badge/Discussions-0A0A0A?logo=github)](https://github.com/orgs/Source-Robotics/discussions) | [![Blog](https://img.shields.io/badge/Blog-Source%20Robotics-blue)](https://source-robotics.com/blogs/blog) |
 
 
 
