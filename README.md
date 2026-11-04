@@ -42,7 +42,7 @@ If you want to Source all the parts yourself and build your own follow these ste
 ## 📚Documentation:
 
 - [Product website](https://source-robotics.com/products/compliant-gripper)
-- [GUI software](https://github.com/Source-Robotics/SSG-gripper-GUI) 
+- [GUI software: Motor GUI](https://motorgui.com/), in the browser ([guide](https://docs.source-robotics.com/SSG48-gripper-docs/latest/05-setup/motor-gui/))
 - [Building instructions](https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/tree/main/Assembly%20manual)
 - [BOM](https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/tree/main/BOM)
 - [DOCS](https://docs.source-robotics.com/SSG48-gripper-docs/latest/01-overview/)
