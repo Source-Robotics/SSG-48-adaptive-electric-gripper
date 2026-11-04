@@ -3,7 +3,7 @@
 <div align="center">
 
 # SSG48 adaptive electric gripper
-[![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-yellow.svg)](LICENSE)  ![Issues](https://img.shields.io/github/issues/Source-Robotics/SSG-48-adaptive-electric-gripper) ![release](https://img.shields.io/github/v/release/Source-Robotics/SSG-48-adaptive-electric-gripper) [![ROS2](https://img.shields.io/badge/ROS-2-blueviolet?logo=ros)](https://github.com/Lass6230/ssg48_adaptive_electric_gripper_ros2)  [![Python](https://img.shields.io/badge/Python-API-yellow?logo=python&logoColor=black)](https://github.com/Source-Robotics/Spectral-BLDC-Python/tree/main)  [![Docs](https://img.shields.io/badge/DOCS-GitHub%20Pages-brightgreen)](https://docs.source-robotics.com/SSG48-gripper-docs/latest/01-overview/)
+[![License: CERN-OHL-S-2.0](https://img.shields.io/badge/license-CERN--OHL--S--2.0-blue)](LICENSE)  ![Issues](https://img.shields.io/github/issues/Source-Robotics/SSG-48-adaptive-electric-gripper) ![release](https://img.shields.io/github/v/release/Source-Robotics/SSG-48-adaptive-electric-gripper) [![ROS2](https://img.shields.io/badge/ROS-2-blueviolet?logo=ros)](https://github.com/Lass6230/ssg48_adaptive_electric_gripper_ros2)  [![Python](https://img.shields.io/badge/Python-API-yellow?logo=python&logoColor=black)](https://github.com/Source-Robotics/Spectral-BLDC-Python/tree/main)  [![Docs](https://img.shields.io/badge/DOCS-GitHub%20Pages-brightgreen)](https://docs.source-robotics.com/SSG48-gripper-docs/latest/01-overview/)
 
 ## [▶️YouTube🔴 Video of Gripper in Action!](https://www.youtube.com/shorts/DQgi8Ua-VAU)
 
@@ -113,4 +113,4 @@ THIS PROJECT INVOLVES LETHAL VOLTAGES AND OTHER SERIOUS HAZARDS THAT CAN CAUSE S
 
 
 ## 🛡️ Licensing
-Project is under Apache 2.0 Licence
+Project is under the [CERN Open Hardware Licence Version 2 - Strongly Reciprocal](LICENSE) (CERN-OHL-S-2.0). Until 4 November 2026 it was under Apache-2.0.
