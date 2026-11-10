@@ -27,7 +27,7 @@
 
 | **48 mm** | **8 to 80 N** | **180 mm/s** | **440 g** | **24 V, CAN** |
 |:-:|:-:|:-:|:-:|:-:|
-| stroke | grip force, set by the current | per jaw, at most | mass | on one M8 cable |
+| stroke | grip force | top jaw speed | weight | on one cable |
 
 </div>
 
@@ -65,7 +65,8 @@
 | **Simulate it** | [URDF and MuJoCo models](ssg48_description/) |
 | **Put it on a robot** | [PAROL6 and PAR6](https://docs.source-robotics.com/SSG48-gripper-docs/latest/06-operation/robots/) · [UR5 adapter plate](STEPS/UR5%20adapter%20plate/) · [PAROL6 gripper cable](https://source-robotics.com/products/gripper-cable) |
 
-## In this repository
+<details>
+<summary><b>What is in this repository</b></summary>
 
 | Folder | What is in it |
 |---|---|
@@ -78,6 +79,8 @@
 
 The [latest release](https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/releases/latest) has the print
 files, the STEP files, the jaws, the assembly manual and the BOM as ready downloads.
+
+</details>
 
 ## Community
 
@@ -94,15 +97,6 @@ Ask in [Discussions](https://github.com/orgs/Source-Robotics/discussions), chat 
 [![Blog](https://img.shields.io/badge/blog-source--robotics.com-143952?style=flat-square&logo=rss&logoColor=white)](https://source-robotics.com/blogs/blog)
 
 ## Safety, liability and disclaimer
-
-This project includes experimental software, hardware designs, and assembly documentation that are still under development and may contain bugs, errors, or incomplete features. By using, building, or modifying this project, you acknowledge that:
-
-* You use this project entirely at your own risk
-* You are solely responsible for safe assembly, testing, and operation
-* No guarantee is made regarding correctness, safety, or reliability
-* The authors are not responsible for any damage, injury, or loss resulting from the use or misuse of this project
-* Hardware performance and safety depend on user assembly, component quality, calibration, and handling, which cannot be guaranteed
-* This project is provided “as is.” If you choose to build a device yourself using these files, designs, or instructions, you do so without any warranties or guarantees, including regarding safety, reliability, or suitability for any particular purpose.
 
 > [!WARNING]
 > THIS PROJECT INVOLVES LETHAL VOLTAGES AND OTHER SERIOUS HAZARDS THAT CAN CAUSE SEVERE INJURY. YOU MUST READ THE FULL [SAFETY WARNING AND DISCLAIMER DOCUMENT](SAFETY_WARNING_AND_DISCLAIMER.md)  BEFORE USING ANY PROJECT FILES. BY PROCEEDING, YOU ACKNOWLEDGE AND ACCEPT ALL RISKS AND AGREE TO USE THIS PROJECT ENTIRELY AT YOUR OWN RESPONSIBILITY.
