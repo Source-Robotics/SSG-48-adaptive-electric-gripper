@@ -31,6 +31,13 @@
 
 </div>
 
+> [!TIP]
+> **Hard to get the BLDC motor for the SSG-48?** Look at the
+> [MSG grippers](https://github.com/Source-Robotics/MSG-compliant-AI-stepper-gripper). They do the same job with
+> a standard stepper motor and give you more choice: the rail length (100, 150 or 200 mm) sets the grip span, the
+> stepper size (21.5, 40 or 60 mm) the grip force. They were designed around a built-in camera from the start, for
+> AI, physical AI and teleoperation.
+
 ## Project overview
 
 <table>
