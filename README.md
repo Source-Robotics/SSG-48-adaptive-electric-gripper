@@ -59,20 +59,19 @@
 | I want to | Go to |
 |---|---|
 | **Buy an assembled gripper** | [source-robotics.com](https://source-robotics.com/products/compliant-gripper) |
-| **Build my own** | [BOM](BOM/) · [print files](Gripper%20STL%20parts/) · [assembly manual](Assembly%20manual/) · [assembly video](https://www.youtube.com/watch?v=127zXHKuqIg) · [cables](Assembly%20manual/Building_cables.md) · [build guide](https://docs.source-robotics.com/SSG48-gripper-docs/latest/build/) |
+| **Build my own** | [BOM](BOM/) · [print files](Print%20files/) · [assembly manual](Assembly%20manual/) · [assembly video](https://www.youtube.com/watch?v=127zXHKuqIg) · [cables](Assembly%20manual/Building_cables.md) · [build guide](https://docs.source-robotics.com/SSG48-gripper-docs/latest/build/) |
 | **Set it up and make it move** | [Quick start](https://docs.source-robotics.com/SSG48-gripper-docs/latest/quick-start/) · [Motor GUI](https://motorgui.com/), in the browser ([guide](https://docs.source-robotics.com/SSG48-gripper-docs/latest/05-setup/motor-gui/)) |
 | **Program it** | [Python API](https://github.com/Source-Robotics/Spectral-BLDC-Python) ([first program](https://docs.source-robotics.com/SSG48-gripper-docs/latest/06-operation/python/#the-first-program)) · [ROS 2 package](https://github.com/Lass6230/ssg48_adaptive_electric_gripper_ros2) · [MSG gripper's ROS 2 package](https://github.com/BiomechatronicsLab/source_robotics_msg_gripper_ros2), which drives the SSG-48 too · [CAN and UART commands](https://docs.source-robotics.com/SSG48-gripper-docs/latest/reference/) |
 | **Simulate it** | [URDF and MuJoCo models](ssg48_description/) |
-| **Put it on a robot** | [PAROL6 and PAR6](https://docs.source-robotics.com/SSG48-gripper-docs/latest/06-operation/robots/) · [UR5 adapter plate](STEPS/UR5%20adapter%20plate/) · [PAROL6 gripper cable](https://source-robotics.com/products/gripper-cable) |
+| **Put it on a robot** | [PAROL6 and PAR6](https://docs.source-robotics.com/SSG48-gripper-docs/latest/06-operation/robots/) · [UR5 adapter plate](STEP%20files/Couplers/UR_coupler_gripper.STEP) · [PAROL6 gripper cable](https://source-robotics.com/products/gripper-cable) |
 
 <details>
 <summary><b>What is in this repository</b></summary>
 
 | Folder | What is in it |
 |---|---|
-| [`Gripper STL parts`](Gripper%20STL%20parts/) | every printed part of both hardware versions (`V1`, `V2`), and the coupler connectors for PAROL6, PAR6 and your own robot |
-| [`gripper jaws`](gripper%20jaws/) | the fin-ray fingers and their jaw plate, STL and STEP |
-| [`STEPS`](STEPS/) | the STEP files: the body parts, the whole gripper, the jaw plate template, the pinch jaws, the generic coupler connector and the UR5 adapter plate |
+| [`Print files`](Print%20files/) | the STL files to print: the body of both hardware versions (`V2`, the one to print; `V1`, the original), the fin-ray fingers and their jaw plate (`Jaws`), the coupler connectors for PAROL6, PAR6 and your own robot (`Couplers`) |
+| [`STEP files`](STEP%20files/) | the STEP files: the body parts (`Body`), the whole gripper as one model (`Whole gripper`), the jaw plate template, the fin-ray fingers and the pinch jaws (`Jaws`), the generic coupler connector and the UR5 adapter plate (`Couplers`) |
 | [`BOM`](BOM/) | the bill of materials, with a shop link and a reference image for every part but the screws |
 | [`Assembly manual`](Assembly%20manual/) | the assembly manual (PDF), the guide to building the cables and a motor datasheet |
 | [`ssg48_description`](ssg48_description/) | the guide to the URDF and MuJoCo models, from [robot_descriptions](https://github.com/Source-Robotics/robot_descriptions) |

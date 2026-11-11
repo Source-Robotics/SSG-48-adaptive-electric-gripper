@@ -13,7 +13,7 @@ Which SSG-48 you have, and which files, firmware and manual go with it.
 
 | | What differs | How to tell |
 |---|---|---|
-| Hardware V2 or V1 | V2 has the "large bearing" body, lid, gear and magnet shaft: a larger bearing on the pinion for a stiffer, longer-lasting mechanism; the electronics, the motor, the rail, the jaw plates, the coupler connectors and the control are the same | a gripper from the shop is a V2; a self-built one is the version of its printed parts (folder `V1` or `V2` in [Gripper STL parts](Gripper%20STL%20parts/)) |
+| Hardware V2 or V1 | V2 has the "large bearing" body, lid, gear and magnet shaft: a larger bearing on the pinion for a stiffer, longer-lasting mechanism; the electronics, the motor, the rail, the jaw plates, the coupler connectors and the control are the same | a gripper from the shop is a V2; a self-built one is the version of its printed parts (folder `V1` or `V2` in [Print files](Print%20files/)) |
 | Release V2 or V1.1 | V2 carries the parts of both hardware versions; V1.1 is the version tested with PAROL6 | either works with Spectral firmware 107 and the current manual |
 
 ## What works together
