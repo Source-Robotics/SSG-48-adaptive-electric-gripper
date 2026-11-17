@@ -28,8 +28,8 @@ This BOM lists all components required to build the SSG48 gripper. Quantities ar
 
 | Thread | Length | Outer Diameter | Quantity | Description | Link |
 |--------|--------|----------------|----------|-------------|------|
-| M3 | 3 mm | 4.5 mm | 1 | [Reference image](../Photos/brass_insert.png) | [Link](https://s.click.aliexpress.com/e/_DnCPrW9)<br>[amazon.com](https://www.amazon.com/dp/B0F4JH1K2Z?tag=sourcerobotic-20) |
-| M3 | 5 mm | 4.5 mm | 15 | [Reference image](../Photos/brass_insert.png) | [Link](https://s.click.aliexpress.com/e/_DnCPrW9)<br>[amazon.com](https://www.amazon.com/dp/B0FDKYTMZ8?tag=sourcerobotic-20) |
+| M3 | 3 mm | 4.5 mm | 1 | [Reference image](../Photos/brass_insert.png) | [Link](https://s.click.aliexpress.com/e/_DnCPrW9)<br>[amazon.de](https://www.amazon.de/dp/B0CTKHNNDS?tag=sourcerobotic-20)<br>[amazon.com](https://www.amazon.com/dp/B0F4JH1K2Z?tag=sourcerobotic-20) |
+| M3 | 5 mm | 4.5 mm | 15 | [Reference image](../Photos/brass_insert.png) | [Link](https://s.click.aliexpress.com/e/_DnCPrW9)<br>[amazon.de](https://www.amazon.de/dp/B0CTKH773W?tag=sourcerobotic-20)<br>[amazon.com](https://www.amazon.com/dp/B0FDKYTMZ8?tag=sourcerobotic-20) |
 
 ---
 
@@ -49,8 +49,8 @@ This BOM lists all components required to build the SSG48 gripper. Quantities ar
 | Type | Quantity | Description | Link |
 |------|----------|-------------|------|
 | Shaft coupler | 1 | 8 mm hole shaft, M4 screw holes<br>[Reference image](../Photos/shaft_coupler.png) | [Link](https://www.aliexpress.com/item/4000208248034.html?spm=a2g0o.order_list.order_list_main.521.6af018026rwEsK)<br>[amazon.de](https://www.amazon.de/dp/B0FNWRLWR4?tag=sourcerobotic-20)<br>[amazon.com](https://www.amazon.com/dp/B08335MYGW?tag=sourcerobotic-20) |
-| MGN7C slider | 2 | [Reference image](../Photos/MGN7C_carriage.jpg) | [Link](https://s.click.aliexpress.com/e/_oEZfs3x)<br>[amazon.com](https://www.amazon.com/dp/B08ZS6DFCN?tag=sourcerobotic-20) |
-| Linear guide | 1 | 100 mm<br>[Reference image](../Photos/MGN7_rail.jpg) | [Link](https://s.click.aliexpress.com/e/_oBSDfjN)<br>[amazon.com](https://www.amazon.com/s?k=mgn7c+linear+rail&tag=sourcerobotic-20) |
+| MGN7C slider | 2 | [Reference image](../Photos/MGN7C_carriage.jpg) | [Link](https://s.click.aliexpress.com/e/_oEZfs3x)<br>[amazon.de](https://www.amazon.de/s?k=MGN7C+slider&tag=sourcerobotic-20)<br>[amazon.com](https://www.amazon.com/dp/B08ZS6DFCN?tag=sourcerobotic-20) |
+| Linear guide | 1 | 100 mm<br>[Reference image](../Photos/MGN7_rail.jpg) | [Link](https://s.click.aliexpress.com/e/_oBSDfjN)<br>[amazon.de](https://www.amazon.de/s?k=MGN7+linear+rail&tag=sourcerobotic-20)<br>[amazon.com](https://www.amazon.com/s?k=mgn7c+linear+rail&tag=sourcerobotic-20) |
 | Magnet | 1 | 6 mm diameter, 2.5 mm thickness, diametrically magnetised<br>[Reference image](../Photos/magnet_diametrically.png) | [Link](https://source-robotics.com/products/6x2-5mm-diametrical-neodymium-magnet) |
 
 ---
@@ -60,11 +60,11 @@ This BOM lists all components required to build the SSG48 gripper. Quantities ar
 | Type | Quantity | Description | Link |
 |------|----------|-------------|------|
 | Spectral micro BLDC driver | 1 | [source-robotics.com](http://source-robotics.com/)<br>[Reference image](../Photos/Spectral_micro.png) | [Link](https://source-robotics.com/products/spectral-micro-bldc-controller) |
-| XH 2.54 mm, 300 mm, 2P, double-ended | 1 | Cable for 24 V<br>[Reference image](../Photos/XH_cable.jpg) | [Link](https://s.click.aliexpress.com/e/_c4XKzTj9)<br>[amazon.com](https://www.amazon.com/dp/B0D6KSMK1Q?tag=sourcerobotic-20) |
-| ZH 1.5 mm, 300 mm, 2P, double-ended | 1 | Cable for CAN bus<br>[Reference image](../Photos/ZH_cable.jpg) | [Link](https://s.click.aliexpress.com/e/_c4XKzTj9)<br>[amazon.com](https://www.amazon.com/dp/B0DSPCFH9D?tag=sourcerobotic-20) |
+| XH 2.54 mm, 300 mm, 2P, double-ended | 1 | Cable for 24 V<br>[Reference image](../Photos/XH_cable.jpg) | [Link](https://s.click.aliexpress.com/e/_c4XKzTj9)<br>[amazon.de](https://www.amazon.de/dp/B0CBWZLB5C?tag=sourcerobotic-20)<br>[amazon.com](https://www.amazon.com/dp/B0D6KSMK1Q?tag=sourcerobotic-20) |
+| ZH 1.5 mm, 300 mm, 2P, double-ended | 1 | Cable for CAN bus<br>[Reference image](../Photos/ZH_cable.jpg) | [Link](https://s.click.aliexpress.com/e/_c4XKzTj9)<br>[amazon.de](https://www.amazon.de/dp/B0FMCW2R5B?tag=sourcerobotic-20)<br>[amazon.com](https://www.amazon.com/dp/B0DSPCFH9D?tag=sourcerobotic-20) |
 | Male 4-pin connector | 1 | [Reference image](../Photos/M8connectormale4pin.png) | [Link](https://s.click.aliexpress.com/e/_DCG5Rff)<br>[amazon.com](https://www.amazon.com/dp/B0FKVL6772?tag=sourcerobotic-20) |
 | 100K NTC thermistor | 1 | NTC 100K 3950, glued into the motor windings: the driver stops the gripper at 75 °C<br>[Reference image](../Photos/Thermistor.png) | [Link](https://source-robotics.com/products/100k-ntc-thermistor) |
-| Thermal cement | 1 | Holds the thermistor in the windings and conducts the heat to it<br>[Reference image](../Photos/Thermal_cement.jpg) | [Link](https://s.click.aliexpress.com/e/_c3dBOwTD)<br>[amazon.com](https://www.amazon.com/dp/B0C5D8JQ7R?tag=sourcerobotic-20) |
+| Thermal cement | 1 | Holds the thermistor in the windings and conducts the heat to it<br>[Reference image](../Photos/Thermal_cement.jpg) | [Link](https://s.click.aliexpress.com/e/_c3dBOwTD)<br>[amazon.de](https://www.amazon.de/dp/B0BR2CK4J8?tag=sourcerobotic-20)<br>[amazon.com](https://www.amazon.com/dp/B0C5D8JQ7R?tag=sourcerobotic-20) |
 
 ---
 
@@ -74,9 +74,9 @@ Parts for the DIY cable version below:
 
 | Type | Length / Spec | Quantity | Description | Link |
 |------|---------------|----------|-------------|------|
-| 26 AWG cable | 0.15 mm², 4-wire twisted pair | 0.4 m | Usually 35 cm cable is enough<br>[Reference image](../Photos/Twisted_pair_cable.png) | [Link](https://s.click.aliexpress.com/e/_DeGUD4Z)<br>[amazon.com](https://www.amazon.com/dp/B0FHNWRQSB?tag=sourcerobotic-20) |
-| M8 4-pin male wire connector | — | 1 | [See reference image](../Photos/M8_male.png) | [Link](https://s.click.aliexpress.com/e/_DCG5Rff)<br>[amazon.com](https://www.amazon.com/dp/B0FG3JTF1H?tag=sourcerobotic-20) |
-| M8 4-pin female wire connector | — | 1 | [See reference image](../Photos/M8_female.png) | [Link](https://s.click.aliexpress.com/e/_DCG5Rff)<br>[amazon.com](https://www.amazon.com/dp/B0FG3JTF1H?tag=sourcerobotic-20) |
+| 26 AWG cable | 0.15 mm², 4-wire twisted pair | 0.4 m | Usually 35 cm cable is enough<br>[Reference image](../Photos/Twisted_pair_cable.png) | [Link](https://s.click.aliexpress.com/e/_DeGUD4Z)<br>[amazon.de](https://www.amazon.de/dp/B0D2QVTCPF?tag=sourcerobotic-20)<br>[amazon.com](https://www.amazon.com/dp/B0FHNWRQSB?tag=sourcerobotic-20) |
+| M8 4-pin male wire connector | — | 1 | [See reference image](../Photos/M8_male.png) | [Link](https://s.click.aliexpress.com/e/_DCG5Rff)<br>[amazon.de](https://www.amazon.de/dp/B0DS7JSG14?tag=sourcerobotic-20)<br>[amazon.com](https://www.amazon.com/dp/B0FG3JTF1H?tag=sourcerobotic-20) |
+| M8 4-pin female wire connector | — | 1 | [See reference image](../Photos/M8_female.png) | [Link](https://s.click.aliexpress.com/e/_DCG5Rff)<br>[amazon.de](https://www.amazon.de/dp/B0DS7JSG14?tag=sourcerobotic-20)<br>[amazon.com](https://www.amazon.com/dp/B0FG3JTF1H?tag=sourcerobotic-20) |
 
 Check out the cable building guide [here](../Assembly%20manual/Building_cables.md)
 
