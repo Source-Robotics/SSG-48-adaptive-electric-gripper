@@ -74,7 +74,7 @@ Parts for the DIY cable version below:
 
 | Type | Length / Spec | Quantity | Description | Link |
 |------|---------------|----------|-------------|------|
-| 26 AWG cable | 0.15 mm², 4-wire twisted pair | 0.4 m | Usually 35 cm cable is enough<br>[Reference image](../Photos/Twisted_pair_cable.png) | [Link](https://s.click.aliexpress.com/e/_DeGUD4Z) |
+| 26 AWG cable | 0.15 mm², 4-wire twisted pair | 0.4 m | Usually 35 cm cable is enough<br>[Reference image](../Photos/Twisted_pair_cable.png) | [Link](https://s.click.aliexpress.com/e/_DeGUD4Z)<br>[amazon.com](https://www.amazon.com/dp/B0FHNWRQSB?tag=sourcerobotic-20) |
 | M8 4-pin male wire connector | — | 1 | [See reference image](../Photos/M8_male.png) | [Link](https://s.click.aliexpress.com/e/_DCG5Rff)<br>[amazon.com](https://www.amazon.com/dp/B0FG3JTF1H?tag=sourcerobotic-20) |
 | M8 4-pin female wire connector | — | 1 | [See reference image](../Photos/M8_female.png) | [Link](https://s.click.aliexpress.com/e/_DCG5Rff)<br>[amazon.com](https://www.amazon.com/dp/B0FG3JTF1H?tag=sourcerobotic-20) |
 
