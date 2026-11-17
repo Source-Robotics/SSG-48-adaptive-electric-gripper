@@ -1,6 +1,6 @@
 # Gripper – Bill of Materials (BOM)
 
-This BOM lists all components required to build the SSG48 gripper. Quantities are for **one gripper**.
+This BOM lists all components required to build the SSG48 gripper. Quantities are for **one gripper**. Many of the links are affiliate links to AliExpress and Amazon: if you buy through them, we earn a small commission at no extra cost to you. As an Amazon Associate we earn from qualifying purchases.
 
 > [!NOTE]
 > If any product links are broken, unavailable, or no longer point to the correct item, please [open an issue](https://github.com/PCrnjak/SSG-48-adaptive-electric-gripper/issues/new), send us a message on Discord, or contact us via email. You can also use the reference images to find the same or an equivalent part from another supplier.
@@ -40,7 +40,7 @@ This BOM lists all components required to build the SSG48 gripper. Quantities ar
 
 | Type | Quantity | Description | Link |
 |------|----------|-------------|------|
-| GBM5208-75 | 1 | [Reference image](../Photos/GBM5208.jpg) | [Link](https://s.click.aliexpress.com/e/_DmkWskt) //  [Alibaba link](https://www.alibaba.com/product-detail/Flashhobby-GBM5208-75-0-3KG-5208_1601005642241.html) |
+| GBM5208-75 | 1 | [Reference image](../Photos/GBM5208.jpg) | [Link](https://s.click.aliexpress.com/e/_DmkWskt) //  [Alibaba link](https://www.alibaba.com/product-detail/Flashhobby-GBM5208-75-0-3KG-5208_1601005642241.html)<br>[amazon.com](https://www.amazon.com/dp/B0BYFFX57Q?tag=sourcerobotic-20) |
 
 ---
 
@@ -48,9 +48,9 @@ This BOM lists all components required to build the SSG48 gripper. Quantities ar
 
 | Type | Quantity | Description | Link |
 |------|----------|-------------|------|
-| Shaft coupler | 1 | 8 mm hole shaft, M4 screw holes<br>[Reference image](../Photos/shaft_coupler.png) | [Link](https://www.aliexpress.com/item/4000208248034.html?spm=a2g0o.order_list.order_list_main.521.6af018026rwEsK) |
-| MGN7C slider | 2 | [Reference image](../Photos/MGN7C_carriage.jpg) | [Link](https://s.click.aliexpress.com/e/_oEZfs3x) |
-| Linear guide | 1 | 100 mm<br>[Reference image](../Photos/MGN7_rail.jpg) | [Link](https://s.click.aliexpress.com/e/_oBSDfjN) |
+| Shaft coupler | 1 | 8 mm hole shaft, M4 screw holes<br>[Reference image](../Photos/shaft_coupler.png) | [Link](https://www.aliexpress.com/item/4000208248034.html?spm=a2g0o.order_list.order_list_main.521.6af018026rwEsK)<br>[amazon.de](https://www.amazon.de/dp/B0FNWRLWR4?tag=sourcerobotic-20)<br>[amazon.com](https://www.amazon.com/dp/B08335MYGW?tag=sourcerobotic-20) |
+| MGN7C slider | 2 | [Reference image](../Photos/MGN7C_carriage.jpg) | [Link](https://s.click.aliexpress.com/e/_oEZfs3x)<br>[amazon.com](https://www.amazon.com/dp/B08ZS6DFCN?tag=sourcerobotic-20) |
+| Linear guide | 1 | 100 mm<br>[Reference image](../Photos/MGN7_rail.jpg) | [Link](https://s.click.aliexpress.com/e/_oBSDfjN)<br>[amazon.com](https://www.amazon.com/s?k=mgn7c+linear+rail&tag=sourcerobotic-20) |
 | Magnet | 1 | 6 mm diameter, 2.5 mm thickness, diametrically magnetised<br>[Reference image](../Photos/magnet_diametrically.png) | [Link](https://source-robotics.com/products/6x2-5mm-diametrical-neodymium-magnet) |
 
 ---
@@ -62,9 +62,9 @@ This BOM lists all components required to build the SSG48 gripper. Quantities ar
 | Spectral micro BLDC driver | 1 | [source-robotics.com](http://source-robotics.com/)<br>[Reference image](../Photos/Spectral_micro.png) | [Link](https://source-robotics.com/products/spectral-micro-bldc-controller) |
 | XH 2.54 mm, 300 mm, 2P, double-ended | 1 | Cable for 24 V<br>[Reference image](../Photos/XH_cable.jpg) | [Link](https://s.click.aliexpress.com/e/_c4XKzTj9) |
 | ZH 1.5 mm, 300 mm, 2P, double-ended | 1 | Cable for CAN bus<br>[Reference image](../Photos/ZH_cable.jpg) | [Link](https://s.click.aliexpress.com/e/_c4XKzTj9) |
-| Male 4-pin connector | 1 | [Reference image](../Photos/M8connectormale4pin.png) | [Link](https://s.click.aliexpress.com/e/_DCG5Rff) |
+| Male 4-pin connector | 1 | [Reference image](../Photos/M8connectormale4pin.png) | [Link](https://s.click.aliexpress.com/e/_DCG5Rff)<br>[amazon.com](https://www.amazon.com/dp/B0FKVL6772?tag=sourcerobotic-20) |
 | 100K NTC thermistor | 1 | NTC 100K 3950, glued into the motor windings: the driver stops the gripper at 75 °C<br>[Reference image](../Photos/Thermistor.png) | [Link](https://source-robotics.com/products/100k-ntc-thermistor) |
-| Thermal cement | 1 | Holds the thermistor in the windings and conducts the heat to it<br>[Reference image](../Photos/Thermal_cement.jpg) | [Link](https://s.click.aliexpress.com/e/_c3dBOwTD) |
+| Thermal cement | 1 | Holds the thermistor in the windings and conducts the heat to it<br>[Reference image](../Photos/Thermal_cement.jpg) | [Link](https://s.click.aliexpress.com/e/_c3dBOwTD)<br>[amazon.com](https://www.amazon.com/dp/B0C5D8JQ7R?tag=sourcerobotic-20) |
 
 ---
 
